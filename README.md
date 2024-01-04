@@ -73,8 +73,7 @@ The resulting load lines are plotted in Figure For a DC operating point to be va
 
 The switching threshold, VM, is defined as the point where Vin = Vout. Its value can be obtained graphically from the intersection of the VTC with the line given by Vin = Vout
 
-![image](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/614428da-51f8-4363-885e-446a80d040b1)
-
+![Asset 19](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/4d7165d6-904c-4076-ae5c-909b6c253c1d)
 
 It is generally considered to be desirable for VM to be located around the middle of the available voltage swing (or at VDD/2), since this results in comparable values for the low and high noise margins. This requires r to be approximately 1. Moving the VM upwards requires sizing the PMOS device. A larger value of r is
 required, which makes the PMOS wider. that represented below.
@@ -416,7 +415,6 @@ power = -8.52649e-17
 -> print avg_power
 avg_power = -9.91452e-09
 ```
-![Asset 19](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/4d7165d6-904c-4076-ae5c-909b6c253c1d)
 
 ## Analysis environment 
 ![Screenshot from 2023-09-06 15-03-51](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/33e8f650-1a86-4b22-94cb-23f09f8e9a0e)
