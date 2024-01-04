@@ -421,3 +421,18 @@ avg_power = -9.91452e-09
 ## Analysis environment 
 
 ![Screenshot from 2023-09-06 15-03-51](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/c77f1242-5964-4727-a63b-c67cb8608b78)
+
+
+# Inverter-layout-design
+
+## SKY-130 Metal Layer Stack Diagram 
+![metal stack diagram](https://github.com/RukmiChavda/inverter-layout-design/assets/82014536/b9ccf2e7-1574-469e-aa71-3d22a4419a32)
+
+## Magic Layout
+![Screenshot from 2023-10-16 15-43-26](https://github.com/RukmiChavda/inverter-layout-design/assets/82014536/acf575e2-053d-420f-a137-043eaf43d9dc)
+
+## DRC Result
+
+## LVS Result
+Final result: Circuits match uniquely.
+Property errors were found.
