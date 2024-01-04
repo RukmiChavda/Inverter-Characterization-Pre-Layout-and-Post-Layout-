@@ -8,8 +8,7 @@ Inverter characteristics realization using Open Source tools.
 
 This analysis provides a gate model that will help us identify the gate's parameters and select their values such that the final model corresponds to the required specifications. While each of these factors is equally observable for a specific technology, I also explain how they are influenced by technological scalability.
 
-![Screenshot from 2023-08-18 15-07-22](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/b73a8a1d-00f5-48bb-a3a7-09bc55f83741)
-
+![inverter](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/0ab36a6e-b149-47fa-9003-9714900e5b5e)
 
 The schematic symbol of the inverter is displayed in the image above. The inverter requires two MOS transistors: one PMOS and one NMOS. VDD has been coupled to the source of PMOS, the drain of PMOS and the drain of the NMOS are shorted from where the output would be taken, and the source of the NMOS is connected to the ground. The gates of the PMOS and NMOS are connected together, and they act as the inverter's input. 
 
