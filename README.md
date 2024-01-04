@@ -46,7 +46,8 @@ Fanout Capacitance
 
 The nature and the form of the voltage-transfer characteristic (VTC) can be graphically deduced by superimposing the current characteristics of the NMOS and the PMOS devices. Such a graphical construction is traditionally called a load-line plot. It requires that the I-V curves of the NMOS and PMOS devices are transformed into a common coordinate set. 
 
-![Asset 1](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/1309a581-e23f-4c20-be87-82f0412bf1df)
+![Asset 1](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/fe4c64ea-e8d5-44b4-8fe4-202bc9377052)
+
 
 ```
 For the above curve, DC simulation is used.
@@ -79,11 +80,11 @@ The switching threshold, VM, is defined as the point where Vin = Vout. Its value
 It is generally considered to be desirable for VM to be located around the middle of the available voltage swing (or at VDD/2), since this results in comparable values for the low and high noise margins. This requires r to be approximately 1. Moving the VM upwards requires sizing the PMOS device. A larger value of r is
 required, which makes the PMOS wider. that represented below.
 
-![P increase](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/10a3b5ca-31ae-43d8-b589-83137dd5bcf8)
+![P increase](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/c3b1dd41-c5e9-41ed-b060-33d9510ad09d)
 
 Increasing the strength of the NMOS, on the other hand, moves the switching threshold closer to GND. as shown below
 
-![N increase](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/a9d7bbc5-3794-4807-be15-087bbdb5cd3d)
+![N increase](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/8700d09e-4d29-483b-b6a7-97a9f0e6cec6)
 
 this way, we can derive the required ratio of PMOS versus NMOS transistor sizes such that the switching threshold is set to a desired value VM.
 
@@ -129,11 +130,11 @@ VIL (low-level input voltage) is the maximum low input voltage to be recognized 
 VOH (high-level output voltage) is the minimum high output voltage when the output is logic 1.
 VOL (low-level output voltage) is the maximum low output voltage when the output is logic 0.
 
-![Asset 9](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/5389d359-c821-4ab9-baa3-c2e235c539e8)
+![Asset 9](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/dfcc6d0a-95ed-4456-8e47-d82e0b4e1b8f)
 
 With a CMOS inverter, VOH equals VDD and VOL equals the ground potential.
 
-![Asset 17](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/afe93de3-31f6-45ab-bd5e-9ee88d686cb1)
+![Asset 17](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/6dd09571-4127-41a2-a184-23872b9733b3)
 
 ```
 ############# Parameters #############
@@ -170,7 +171,7 @@ In practice, the noise margin in VLSI is the amount of noise that a logic circui
 ## Propagation delay
 The qualitative study provided earlier indicated that the CMOS inverter propagation delay is governed by the time it takes to charge and discharge the load capacitor CL via the PMOS and NMOS transistors, respectively. This fact implies that obtaining CL as little as feasible is critical for realising high-performance CMOS devices. 
 
-![propo](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/821ee9a5-70e9-44bf-becd-b702d58d5193)
+![propo](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/4c5c6257-757e-4666-b84e-51cfc61efd5a)
 
 Propagation delay is normally described as the time difference between when the transitional input reaches 50% of its final value and when the output reaches 50% of its final value. This demonstrates the influence of input change. In this case, 50% is defined as the logic threshold at which output (or, more specifically, any signal) is presumed to flip states. 
 
@@ -180,7 +181,7 @@ The propagation delay of a logic gate is not constant and is determined by two f
 
 2. Output load of the logic gate: The greater the capacitive load at the cell’s output, the greater the effort (time required) to charge it. As a result, the propagation latency increases.
 
-![Asset 13](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/68af336f-cd24-40dd-b351-44b5774a1afd)
+![Asset 13](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/7573fc61-e00f-4917-bf3b-720a2a613549)
 
 ```
 # value="PULSE(0 1.8 0 0.3NS 0.3NS 4NS 8.6NS 4)"
@@ -282,8 +283,7 @@ t90                 =  1.559430e-10
 -> print tf
 tf = 4.629290e-11
 ```
-
-![Asset 18](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/82f5b2a1-4e8d-44f2-a161-ec519212bcf4)
+![Asset 18](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/94c9becd-cb20-4581-9622-f892064042af)
 
 The rise time and fall time are clearly observed in the above graph representing the stiffness of the POS edge and NEG edge.
 ```
@@ -387,7 +387,7 @@ COMS has 3 types of power Consumption.
 
 In this analysis, we consider all the power of the CMOS inverter together. 
 
-![Asset 16](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/fba4d11f-b081-4641-8afd-86b8bd86fe79)
+![Asset 16](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/8f9a488e-c53c-4164-8bd8-89667ad6d428)
 
 ```
 Load 10pF
@@ -417,7 +417,7 @@ power = -8.52649e-17
 -> print avg_power
 avg_power = -9.91452e-09
 ```
-![Asset 16](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/98fa5759-938d-4740-820d-752361c24ce7)
+![Asset 19](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/4d7165d6-904c-4076-ae5c-909b6c253c1d)
 
 ## Analysis environment 
 ![Screenshot from 2023-09-06 15-03-51](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/33e8f650-1a86-4b22-94cb-23f09f8e9a0e)
