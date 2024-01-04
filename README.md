@@ -382,7 +382,8 @@ COMS has 3 types of power Consumption.
 2. Short Circuit Currents: Short circuit paths between supply rails during switching.
 3. Leakage: Leaking diodes and transistors.
 
-![eq](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/2c0d04ce-4972-4e46-8848-cedbed33edf8)
+![eq](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/ec9c706a-848b-4cbf-83ff-f8fcd0032533)
+
 
 In this analysis, we consider all the power of the CMOS inverter together. 
 
@@ -416,11 +417,10 @@ power = -8.52649e-17
 -> print avg_power
 avg_power = -9.91452e-09
 ```
-![Asset 19](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/0c9bfa03-7875-4d99-a739-4aa7e53e5d5e)
+![Asset 16](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/98fa5759-938d-4740-820d-752361c24ce7)
 
 ## Analysis environment 
-
-![Screenshot from 2023-09-06 15-03-51](https://github.com/RukmiChavda/Inverter-pre-layout-Design/assets/82014536/c77f1242-5964-4727-a63b-c67cb8608b78)
+![Screenshot from 2023-09-06 15-03-51](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/33e8f650-1a86-4b22-94cb-23f09f8e9a0e)
 
 
 # Inverter-layout-design
