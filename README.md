@@ -426,10 +426,10 @@ avg_power = -9.91452e-09
 # Inverter-layout-design
 
 ## SKY-130 Metal Layer Stack Diagram 
-![metal stack diagram](https://github.com/RukmiChavda/inverter-layout-design/assets/82014536/b9ccf2e7-1574-469e-aa71-3d22a4419a32)
+![metal_stack](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/934cdc49-5d83-46df-8d7b-74883ce6f338)
 
 ## Magic Layout
-![Screenshot from 2023-10-16 15-43-26](https://github.com/RukmiChavda/inverter-layout-design/assets/82014536/acf575e2-053d-420f-a137-043eaf43d9dc)
+![layout](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/c9a66ea4-692a-4d59-b1f3-2f11cc3c151a)
 
 ## DRC Result
 
