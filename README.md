@@ -427,9 +427,3 @@ avg_power = -9.91452e-09
 
 ## Magic Layout
 ![layout](https://github.com/RukmiChavda/Inverter-Characterization-Pre-Layout-and-Post-Layout-/assets/82014536/c9a66ea4-692a-4d59-b1f3-2f11cc3c151a)
-
-## DRC Result
-
-## LVS Result
-Final result: Circuits match uniquely.
-Property errors were found.
